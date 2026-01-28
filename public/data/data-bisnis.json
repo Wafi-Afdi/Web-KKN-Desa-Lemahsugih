@@ -1,0 +1,35 @@
+[
+    {
+        "nama_bisnis": "Kopi Sugihwangi",
+        "galeri": [],
+        "deskripsi_singkat": "",
+        "teks_deskripsi": "",
+        "tipe_bisnis": "Kafe & Penyedia Kopi",
+        "tags": [],
+        "lokasi": [],
+        "imageSrc": "/placeholder/marlina-plc.jpg",
+        "gMapsEmbedSrc": "https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=+(Kopi%20sugih%20wangi)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+    },
+    {
+        "nama_bisnis": "Marlina Kopi",
+        "galeri": [],
+        "deskripsi_singkat": "",
+        "teks_deskripsi": "",
+        "tipe_bisnis": "Kafe",
+        "tags": [],
+        "lokasi": [],
+        "imageSrc": "/placeholder/marlina-plc.jpg",
+        "gMapsEmbedSrc": "https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=+(Marlina%20Kopi)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+    },
+    {
+        "nama_bisnis": "Marlina Glamping",
+        "galeri": [],
+        "deskripsi_singkat": "",
+        "teks_deskripsi": "",
+        "tipe_bisnis": "Glamping Resort",
+        "tags": [],
+        "lokasi": [],
+        "imageSrc": "/placeholder/marlina-plc.jpg",
+        "gMapsEmbedSrc": "https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=+(Marlina%20Glamping)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+    }
+]

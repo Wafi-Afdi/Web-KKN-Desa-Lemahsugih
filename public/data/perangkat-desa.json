@@ -1,0 +1,74 @@
+[
+    {
+        "peran": "Kepala Desa",
+        "nama": "Dede Sudrajat",
+        "imageSrc": "/placeholder/profile-plc.png",
+        "id": 1
+    },
+    {
+        "peran": "Sekretaris Desa",
+        "nama": "Eka Sutardi",
+        "imageSrc": "/placeholder/profile-plc.png",
+        "id": 2
+    },
+    {
+        "peran": "Kaur Keuangan",
+        "nama": "Elik Suryana",
+        "imageSrc": "/placeholder/profile-plc.png",
+        "id": 3
+    },
+    {
+        "peran": "Kaur Perencanaan",
+        "nama": "Ujang Tata Ruhiat, S.Sos",
+        "imageSrc": "/placeholder/profile-plc.png",
+        "id": 4
+    },
+    {
+        "peran": "Kasi Pemerintahan",
+        "nama": "Teten Sopiandi, S.Sos",
+        "imageSrc": "/placeholder/profile-plc.png",
+        "id": 5
+    },
+    {
+        "peran": "Kasi Kesja",
+        "nama": "Ayi Wowon K",
+        "imageSrc": "/placeholder/profile-plc.png",
+        "id": 6
+    },
+    {
+        "peran": "Kasi Pelayanan",
+        "nama": "Dadi Abdul Karim",
+        "imageSrc": "/placeholder/profile-plc.png",
+        "id": 7
+    },
+    {
+        "peran": "Kadus Cikupa",
+        "nama": "Nining Sariningsih",
+        "imageSrc": "/placeholder/profile-plc.png",
+        "id": 8
+    },
+    {
+        "peran": "Kadus BBR",
+        "nama": "Irwansyah Kuswara",
+        "imageSrc": "/placeholder/profile-plc.png",
+        "id": 9
+    },
+    {
+        "peran": "Kadus Panggilingan Kidul",
+        "nama": "Dodi Ruhyadinata A",
+        "imageSrc": "/placeholder/profile-plc.png",
+        "id": 10
+    },
+    {
+        "peran": "Kadus Panggilingan Kaler",
+        "nama": "Asep Nurwenda",
+        "imageSrc": "/placeholder/profile-plc.png",
+        "id": 11
+    },
+    {
+        "peran": "Soleh Solihin",
+        "nama": "OB",
+        "imageSrc": "/placeholder/profile-plc.png",
+        "id": 12
+    }
+]
