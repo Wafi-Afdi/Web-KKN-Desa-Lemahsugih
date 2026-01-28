@@ -19,6 +19,7 @@ function LamanDetailKomoditas({
       {
         imageArticle &&
         <img
+          alt={`foto ${namaTanaman}`}
           src={imageArticle}
           className='w-full object-cover h-[200px] rounded-xl'
         />

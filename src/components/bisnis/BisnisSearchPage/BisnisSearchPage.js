@@ -3,12 +3,8 @@ import React, { useEffect, useMemo, useState } from 'react'
 import BisnisCard from '../card/BisnisCard'
 import bisnisData from '@/utils/data/data-bisnis'
 function BisnisSearchPage() {
-  const [semuaBisnis, setSemuaBisnis] = useState([])
+  const [semuaBisnis, setSemuaBisnis] = useState(bisnisData)
   const [searchKataKunci, setSearchKataKunci] = useState('')
-
-  useEffect(() => {
-    setSemuaBisnis(bisnisData)
-  }, [])
 
   const dataTerfilter = useMemo(() => {
     if (!searchKataKunci) return semuaBisnis;
@@ -85,7 +81,7 @@ function BisnisSearchPage() {
           ) : (
             <div className="col-span-full text-center py-20">
               <p className="text-gray-400 text-lg font-body">
-                Tidak ada bisnis yang cocok dengan "{searchKataKunci}"
+                Tidak ada bisnis yang cocok dengan &quot;{searchKataKunci}&quot;
               </p>
             </div>
           )}

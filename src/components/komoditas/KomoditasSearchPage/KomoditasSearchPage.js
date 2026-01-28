@@ -4,12 +4,8 @@ import KomoditasCard from '@/components/komoditas/KomoditasCard/KomoditasCard'
 import dataKomoditasJSON from '@/utils/data/data-komoditas.js'
 
 function KomoditasSearchPage() {
-  const [semuaKomoditas, setSemuaKomoditas] = useState([])
+  const [semuaKomoditas, setSemuaKomoditas] = useState(dataKomoditasJSON)
   const [searchKataKunci, setSearchKataKunci] = useState('')
-
-  useEffect(() => {
-    setSemuaKomoditas(dataKomoditasJSON)
-  }, [])
 
   const dataTerfilter = useMemo(() => {
     if (!searchKataKunci) return semuaKomoditas;
@@ -88,7 +84,7 @@ function KomoditasSearchPage() {
           ) : (
             <div className="col-span-full text-center py-20">
               <p className="text-gray-400 text-lg font-body">
-                Tidak ada komoditas yang cocok dengan "{searchKataKunci}"
+                Tidak ada komoditas yang cocok dengan &quot;{searchKataKunci}&quot;
               </p>
             </div>
           )}

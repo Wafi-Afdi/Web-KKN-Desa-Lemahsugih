@@ -1,19 +1,13 @@
 'use client'
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useMemo } from 'react'
 import BisnisHomeCard from './BisnisHomeCard'
 import bisnisData from '@/utils/data/data-bisnis'
 import Link from 'next/link'
 
 export default function HomeBisnis() {
-  const [dataBisnis, setBisnis] = useState([])
-  useEffect(() => {
-    const dataLength = bisnisData.length >= 3 ? 3 : bisnisData.length
-    const showcaseData = []
-    for (let i = 0; i < dataLength; i++) {
-      showcaseData.push(bisnisData[i])
-    }
-    setBisnis(showcaseData)
-  }, [])
+  const dataBisnis = useMemo(() => {
+    return bisnisData.slice(0, 3);
+  }, []);
 
   return (
     <div className='relative min-h-screen md:min-h-fit bg-[#483700] px-5 py-8 overflow-hidden'>
@@ -26,7 +20,7 @@ export default function HomeBisnis() {
         Bisnis & UMKM
       </h2>
       <p className='relative z-10 font-body font-medium text-md md:text-xl lg:max-w-[70%] text-secondary    text-shadow-xl'>
-        Menikmati senja dengan pemandangan sawah & kabut ditemani seseduh Kopi Americano dari biji yang tumbuh di "Tanah Kaya" ini.
+        Menikmati senja dengan pemandangan sawah & kabut ditemani seseduh Kopi Americano dari biji yang tumbuh di &quot;Tanah Kaya&quot; ini.
       </p>
       <div className=' relative flex md:flex-wrap lg:flex-nowrap flex-col md:flex-row gap-4 md:gap-3 mt-8
       justify-center items-center lg:justify-start md:items-stretch z-10

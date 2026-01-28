@@ -1,7 +1,7 @@
 'use client'
 import dynamic from "next/dynamic";
 
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useMemo } from 'react'
 import KomoditasHomeCard from './KomoditasHomeCard'
 import Link from 'next/link'
 import BookletPangan from './BookletPangan'
@@ -11,24 +11,16 @@ const PetaKomoditasNoSSR = dynamic(() => import("./PetaKomoditas"), { ssr:false 
 
 
 function HomeKomoditas() {
-  const [dataKomoditas, setKomoditas] = useState([])
-  useEffect(() => {
-    try {
-      const dataLength = dataKomoditasJSON.length >= 3 ? 3 : dataKomoditasJSON.length 
-      const showcaseData = []
-      for (let i = 0; i < dataLength; i++) {
-        showcaseData.push(dataKomoditasJSON[i])
-      }
-      setKomoditas(showcaseData)
-    } catch (error) {
-      console.error("Gagal loading data komoditas:", err)
-    }
-    }, [])
+  const dataKomoditas = useMemo(() => {
+    return dataKomoditasJSON.slice(0, 3);
+  }, []);
   return (
     <div className='min-h-screen bg-secondary px-5 py-8 relative overflow-x-hidden'>
       
-      <img src='/background/mask-petani.webp' 
-      className='
+      <img 
+        alt={`img bg petani`}
+        src='/background/mask-petani.webp' 
+        className='
         right-[-25%] top-[50%]
         sm:top-[50] sm:right-[-10%]
         md:right-[-50] md:top-[0] 

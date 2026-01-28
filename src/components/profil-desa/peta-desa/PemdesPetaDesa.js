@@ -66,6 +66,7 @@ function PemdesPetaDesa() {
               <img 
                 className='w-full h-[100px] md:h-[150px] object-cover'
                 src='/balai-desa/balai02.webp'
+                alt='Foto Balai Desa'
               />
             </Popup>
           </Marker>
