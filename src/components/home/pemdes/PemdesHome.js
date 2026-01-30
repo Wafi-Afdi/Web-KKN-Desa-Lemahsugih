@@ -52,24 +52,28 @@ export default function PemdesHome() {
           <ProfilPerangkat 
             nama={kuwuDesa.nama}
             peran={kuwuDesa.peran}
+            imgSrc={kuwuDesa.imageSrc}
           />
         </div>
         <div className='md:pt-30'>
           <ProfilPerangkat
             nama={kaurKeuangan.nama}
             peran={kaurKeuangan.peran}
+            imgSrc={kaurKeuangan.imageSrc}
           />
         </div>
         <div className='hidden md:block'>
           <ProfilPerangkat 
             nama={kuwuDesa.nama}
             peran={kuwuDesa.peran}
+            imgSrc={kuwuDesa.imageSrc}
           />
         </div>
         <div className='md:pt-30'>
           <ProfilPerangkat
             nama={sekdesa.nama}
             peran={sekdesa.peran}
+            imgSrc={sekdesa.imageSrc}
           />
         </div>
       </div>

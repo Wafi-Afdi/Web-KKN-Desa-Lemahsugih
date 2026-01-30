@@ -20,6 +20,7 @@ function StrukturDesa() {
         <ProfilPerangkatDesa 
           nama={kepalaDesa?.nama}
           peran={kepalaDesa?.peran}
+          imgSrc={kepalaDesa?.imageSrc}
         />
       </div>
       <div className='grid grid-cols-1 sm:grid-cols-3 gap-4'>
@@ -30,6 +31,7 @@ function StrukturDesa() {
               nama={data?.nama}
               key={idx}
               peran={data?.peran}
+              imgSrc={data?.imageSrc}
             />
           ))
         }

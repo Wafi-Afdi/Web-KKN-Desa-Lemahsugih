@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full flex justify-center z-100 p-4">
       <div
-        className="flex items-center justify-between md:justify-start px-6 py-3 w-[90%] md:w-[80%] bg-primary shadow-lg text-white rounded-4xl relative"
+        className="flex items-center justify-between md:justify-start px-6 py-3 w-[90%]  lg:w-[80%] bg-primary shadow-lg text-white rounded-4xl relative"
       >
         <div className="flex items-center">
           <Image
@@ -25,24 +25,27 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex flex-row items-center font-medium font-header gap-8 ml-8 text-2xl">
+        <div className="hidden md:flex flex-row items-center font-medium font-header gap-8 ml-8 
+          text-xl lg:text-2xl"
+        >
           <Link href="/" className="hover:opacity-80 transition-opacity">Beranda</Link>
           <Link href="/komoditas" className="hover:opacity-80 transition-opacity">Komoditas</Link>
           <Link href="/bisnis" className="hover:opacity-80 ransition-opacity">Bisnis</Link>
           <Link href="/pemdes" className="hover:opacity-80 transition-opacity">Pemdes</Link>
+          <Link href="/peta-digital" className="hover:opacity-80 transition-opacity" onClick={closeMenu}>Peta Digital</Link>
         </div>
 
         {/* Burger Button for Mobile */}
-        <button 
-          type="button" 
+        <button
+          type="button"
           className="md:hidden p-2"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle Menu"
         >
           {isOpen ? (
-            <AiOutlineClose className="text-secondary text-3xl"/>
+            <AiOutlineClose className="text-secondary text-3xl" />
           ) : (
-            <AiOutlineMenu className="text-secondary text-3xl"/>
+            <AiOutlineMenu className="text-secondary text-3xl" />
           )}
         </button>
 
@@ -56,6 +59,7 @@ export default function Navbar() {
             <Link href="/komoditas" onClick={closeMenu}>Komoditas</Link>
             <Link href="/bisnis" onClick={closeMenu}>Bisnis</Link>
             <Link href="/pemdes" onClick={closeMenu}>Pemdes</Link>
+            <Link href="/peta-digital" onClick={closeMenu}>Peta Digital</Link>
           </div>
         </div>
       </div>
