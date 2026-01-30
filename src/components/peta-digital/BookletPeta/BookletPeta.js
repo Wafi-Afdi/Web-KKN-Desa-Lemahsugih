@@ -21,7 +21,7 @@ function BookletPeta() {
           Buku Panduan <br /> Peta Desa
         </h2>
         <a
-          href='https://drive.google.com/file/d/1jnnBJrnwriKIf5UP-el-PDVTOVkO_vvv/view?usp=sharing'
+          href='https://drive.google.com/file/d/15ajbQ7avgqdqB_zSr7hn7RGEirXVKavN/view?usp=sharing'
           target="_blank" rel="noopener noreferrer"
           className='
                 w-fit rounded-lg py-2 px-4 bg-primary text-secondary font-bold font-body text-sm md:text-lg
