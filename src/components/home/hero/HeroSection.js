@@ -2,11 +2,18 @@ import React from 'react'
 
 function HeroSection() {
   return (
-    <div className="w-full min-h-screen pt-30 px-5 pb-5 flex flex-col
-      bg-[linear-gradient(to_top,rgba(0,0,0,0.8),rgba(0,0,0,0.3)),url('/placeholder/bg-ciremai.jpeg')] bg-cover bg-center
+    <div className="w-full min-h-screen pt-30 px-5 pb-5 flex flex-col 
+      bg-[linear-gradient(to_top,rgba(0,0,0,0.8),rgba(0,0,0,0.3)),url('/background/bg-ciremai-1.jpg')] bg-cover bg-center
     ">
-      <div className='flex-1 flex flex-col justify-end'>
-
+      <div className='relative overflow-hidden flex-1 flex flex-col justify-end'>
+        {/* <img 
+          src='/decor/spinner-1.png'
+          alt='spinner'
+          className='absolute 
+            top-[-25%] right-[-40%] 
+            md:top-[-25%] md:right-[-40%] 
+            animate-[spin_20s_linear_infinite]'
+        /> */}
         {/* Karousel  */}
         <div className='relative aspect-video w-full max-w-[600px]'>
           {/* 2. Added 'absolute inset-0' and removed hardcoded width/height */}

@@ -139,7 +139,6 @@ function page() {
               '/galeri-desa/lemahsugih02.jpg',
               '/galeri-desa/lemahsugih03.jpg',
               '/galeri-desa/lemahsugih04.jpg',
-              '/galeri-desa/lemahsugih06.jpg',
               '/galeri-desa/lemahsugih07.jpg',
               '/galeri-desa/lemahsugih08.jpg',
               '/galeri-desa/lemahsugih09.jpg',
@@ -149,6 +148,8 @@ function page() {
               '/galeri-desa/lemahsugih13.jpg',
               '/galeri-desa/lemahsugih14.jpg',
               '/galeri-desa/lemahsugih15.jpg',
+              '/galeri-desa/lemahsugih16.jpg',
+              '/galeri-desa/lemahsugih17.jpg',
             ]}
           />
         </div>

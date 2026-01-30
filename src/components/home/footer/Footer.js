@@ -31,6 +31,7 @@ function Footer() {
         <Link href="/komoditas" className="font-body text-lg">Komoditas</Link>
         <Link href="/bisnis" className="font-body text-lg">Bisnis</Link>
         <Link href="/pemdes" className="font-body text-lg">Pemerintah Desa</Link>
+        <Link href="/peta-digital" className="font-body text-lg">Peta Desa</Link>
       </div>
       <div className='ml-0 md:ml-auto flex flex-col justify-end md:items-end text-white'>
         <p className="font-body text-sm font-semibold mb-2">

@@ -32,7 +32,7 @@ export default function Navbar() {
           <Link href="/komoditas" className="hover:opacity-80 transition-opacity">Komoditas</Link>
           <Link href="/bisnis" className="hover:opacity-80 ransition-opacity">Bisnis</Link>
           <Link href="/pemdes" className="hover:opacity-80 transition-opacity">Pemdes</Link>
-          <Link href="/peta-digital" className="hover:opacity-80 transition-opacity" onClick={closeMenu}>Peta Digital</Link>
+          <Link href="/peta-digital" className="hover:opacity-80 transition-opacity" onClick={closeMenu}>Peta Desa</Link>
         </div>
 
         {/* Burger Button for Mobile */}
@@ -59,7 +59,7 @@ export default function Navbar() {
             <Link href="/komoditas" onClick={closeMenu}>Komoditas</Link>
             <Link href="/bisnis" onClick={closeMenu}>Bisnis</Link>
             <Link href="/pemdes" onClick={closeMenu}>Pemdes</Link>
-            <Link href="/peta-digital" onClick={closeMenu}>Peta Digital</Link>
+            <Link href="/peta-digital" onClick={closeMenu}>Peta Desa</Link>
           </div>
         </div>
       </div>
